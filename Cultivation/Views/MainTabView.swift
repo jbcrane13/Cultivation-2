@@ -15,6 +15,8 @@ struct MainTabView: View {
             SettingsView()
                 .tabItem { Label("Settings", systemImage: "gearshape.fill") }
         }
-        .accentColor(.green)
+        .tint(Color.cultivationGreen)
+        .toolbarBackground(.ultraThinMaterial, for: .tabBar)
+        .toolbarColorScheme(.dark, for: .tabBar)
     }
 }

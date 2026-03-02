@@ -10,19 +10,30 @@ struct SelectionCard: View {
             HStack {
                 Text(title)
                     .font(.headline)
-                    .foregroundColor(isSelected ? .white : .primary)
+                    .fontDesign(.rounded)
+                    .foregroundStyle(isSelected ? Color.black : Color.primary)
                 Spacer()
-                if isSelected {
-                    Image(systemName: "checkmark.circle.fill")
-                        .foregroundColor(.white)
-                }
+                Image(systemName: isSelected ? "checkmark.circle.fill" : "circle")
+                    .foregroundStyle(isSelected ? Color.black : Color.white.opacity(0.3))
+                    .font(.title3)
             }
             .padding()
             .frame(maxWidth: .infinity)
-            .background(isSelected ? Color.green : Color(UIColor.secondarySystemBackground))
-            .cornerRadius(15)
-            .shadow(color: isSelected ? .green.opacity(0.3) : .clear, radius: 5, x: 0, y: 3)
+            .background(isSelected ? Color.cultivationGreen : Color.white.opacity(0.07))
+            .clipShape(RoundedRectangle(cornerRadius: 14))
+            .overlay(
+                RoundedRectangle(cornerRadius: 14)
+                    .stroke(
+                        isSelected ? Color.clear : Color.white.opacity(0.1),
+                        lineWidth: 1
+                    )
+            )
+            .shadow(
+                color: isSelected ? Color.cultivationGreen.opacity(0.35) : .clear,
+                radius: 8,
+                x: 0,
+                y: 4
+            )
         }
-        .padding(.horizontal, 30)
     }
 }

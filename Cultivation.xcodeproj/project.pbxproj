@@ -8,18 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		05A8F933290EA7B88D081FCF /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E32FB82B24D17F7F0BEEB /* ScannerView.swift */; };
+		07D9AD2728A11A55E65A9C31 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FE0BAFB5AC6C967F751D86 /* Theme.swift */; };
 		09D4870934E30AE9476673D2 /* SelectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5536FE8A9371B83B77CB63B /* SelectionCard.swift */; };
 		0CAE59668F2E8393D6E8C9E1 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFB5D72D588F529F3F11A7 /* DashboardView.swift */; };
 		1800FDA86EDC89B7FEA909A1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BEA69838755688ADBA96E8 /* OnboardingView.swift */; };
+		20917AEBE5B71482C59E28AE /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECB27DC6519D81C978A23FA /* WeatherService.swift */; };
 		3D04CA6B25828F43D514C159 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F57FAD5D97702A53F2ED8 /* MainTabView.swift */; };
 		3E28940324F4B355FE06AD32 /* VisualLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E4356F0794E9F542A025F /* VisualLayoutView.swift */; };
 		3F187158A375146278828DDF /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD8BD0F0670654CDD39030B /* UserPreferences.swift */; };
 		559484E6FE5C8A17D4166A22 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B418756B21980B312D627B /* Plant.swift */; };
+		6516C2D8182D86803B7C18F2 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B7F7F498CDDF2300D2D6 /* TaskRow.swift */; };
+		95E1E8DC28ACC69BDA470671 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE278136D18FB2B2B2ED01BF /* TaskItem.swift */; };
 		B581E2027E6F4F64E5977626 /* CultivationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9BF6B91B0038C3AD8F95C0 /* CultivationApp.swift */; };
 		B952E6D68242B2549D1E2BDD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458BC69210ACD68F3507F801 /* SettingsView.swift */; };
 		C47BDE316C3602D285B8F8F8 /* CultivationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E2D42A21335BDDEA3CFB9B /* CultivationTests.swift */; };
 		C7056D71BFEE0C7628F10CA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB360895883679D87617798A /* ContentView.swift */; };
 		D00247649A55CBA8662D9715 /* PlantCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A20318FACB1FDB95FAC940 /* PlantCard.swift */; };
+		D09F698889EAF195576770A2 /* GardenSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9FB315B11A2842573CD69 /* GardenSlot.swift */; };
+		D1A9882AF1424DE590E48B1D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9879F93A2FD56BCB05F0864 /* Logger.swift */; };
+		E1C0B72316FD16E8A8F7E0F1 /* SampleDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86852153098CEEB85BADE387 /* SampleDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,18 +41,25 @@
 
 /* Begin PBXFileReference section */
 		15BEA69838755688ADBA96E8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		29B9FB315B11A2842573CD69 /* GardenSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenSlot.swift; sourceTree = "<group>"; };
 		458BC69210ACD68F3507F801 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		59FE0BAFB5AC6C967F751D86 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		6B9BF6B91B0038C3AD8F95C0 /* CultivationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultivationApp.swift; sourceTree = "<group>"; };
 		6CD8BD0F0670654CDD39030B /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		6D20B7F7F498CDDF2300D2D6 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		6ECB27DC6519D81C978A23FA /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		83B418756B21980B312D627B /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		86852153098CEEB85BADE387 /* SampleDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataService.swift; sourceTree = "<group>"; };
 		A9E2D42A21335BDDEA3CFB9B /* CultivationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultivationTests.swift; sourceTree = "<group>"; };
 		B2A20318FACB1FDB95FAC940 /* PlantCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCard.swift; sourceTree = "<group>"; };
 		B5536FE8A9371B83B77CB63B /* SelectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionCard.swift; sourceTree = "<group>"; };
+		B9879F93A2FD56BCB05F0864 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		C26E4356F0794E9F542A025F /* VisualLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualLayoutView.swift; sourceTree = "<group>"; };
 		C27DF574977F1F66E7F3AFDD /* Cultivation.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Cultivation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9F57FAD5D97702A53F2ED8 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		DB360895883679D87617798A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E52E32FB82B24D17F7F0BEEB /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		EE278136D18FB2B2B2ED01BF /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
 		F4BFB5D72D588F529F3F11A7 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		F9593C0E592C6747932D93C0 /* CultivationTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CultivationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -56,6 +70,7 @@
 			children = (
 				5D313BA420198B845AB94BCF /* App */,
 				FD94579ADF72D493F2249853 /* Models */,
+				343754A24DF7167B66429206 /* Services */,
 				C10853AFE998B010F79988C8 /* Views */,
 			);
 			path = Cultivation;
@@ -74,8 +89,20 @@
 			children = (
 				B2A20318FACB1FDB95FAC940 /* PlantCard.swift */,
 				B5536FE8A9371B83B77CB63B /* SelectionCard.swift */,
+				6D20B7F7F498CDDF2300D2D6 /* TaskRow.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		343754A24DF7167B66429206 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B9879F93A2FD56BCB05F0864 /* Logger.swift */,
+				86852153098CEEB85BADE387 /* SampleDataService.swift */,
+				59FE0BAFB5AC6C967F751D86 /* Theme.swift */,
+				6ECB27DC6519D81C978A23FA /* WeatherService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		5D313BA420198B845AB94BCF /* App */ = {
@@ -162,7 +189,9 @@
 		FD94579ADF72D493F2249853 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				29B9FB315B11A2842573CD69 /* GardenSlot.swift */,
 				83B418756B21980B312D627B /* Plant.swift */,
+				EE278136D18FB2B2B2ED01BF /* TaskItem.swift */,
 				6CD8BD0F0670654CDD39030B /* UserPreferences.swift */,
 			);
 			path = Models;
@@ -175,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63F9FC7860E0D92490AFCCC1 /* Build configuration list for PBXNativeTarget "Cultivation" */;
 			buildPhases = (
+				6572D897CF00F090375F1715 /* SwiftLint */,
 				5BBC2BCD6F0722AFFEE2EF23 /* Sources */,
 			);
 			buildRules = (
@@ -243,6 +273,28 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6572D897CF00F090375F1715 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed — run: brew install swiftlint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BBC2BCD6F0722AFFEE2EF23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -251,15 +303,22 @@
 				C7056D71BFEE0C7628F10CA0 /* ContentView.swift in Sources */,
 				B581E2027E6F4F64E5977626 /* CultivationApp.swift in Sources */,
 				0CAE59668F2E8393D6E8C9E1 /* DashboardView.swift in Sources */,
+				D09F698889EAF195576770A2 /* GardenSlot.swift in Sources */,
+				D1A9882AF1424DE590E48B1D /* Logger.swift in Sources */,
 				3D04CA6B25828F43D514C159 /* MainTabView.swift in Sources */,
 				1800FDA86EDC89B7FEA909A1 /* OnboardingView.swift in Sources */,
 				559484E6FE5C8A17D4166A22 /* Plant.swift in Sources */,
 				D00247649A55CBA8662D9715 /* PlantCard.swift in Sources */,
+				E1C0B72316FD16E8A8F7E0F1 /* SampleDataService.swift in Sources */,
 				05A8F933290EA7B88D081FCF /* ScannerView.swift in Sources */,
 				09D4870934E30AE9476673D2 /* SelectionCard.swift in Sources */,
 				B952E6D68242B2549D1E2BDD /* SettingsView.swift in Sources */,
+				95E1E8DC28ACC69BDA470671 /* TaskItem.swift in Sources */,
+				6516C2D8182D86803B7C18F2 /* TaskRow.swift in Sources */,
+				07D9AD2728A11A55E65A9C31 /* Theme.swift in Sources */,
 				3F187158A375146278828DDF /* UserPreferences.swift in Sources */,
 				3E28940324F4B355FE06AD32 /* VisualLayoutView.swift in Sources */,
+				20917AEBE5B71482C59E28AE /* WeatherService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
