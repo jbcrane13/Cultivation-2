@@ -27,7 +27,7 @@ struct VisualLayoutView: View {
 
                 Spacer()
 
-                Button(action: {}) {
+                Button {} label: {
                     Label("Add Plant to Layout", systemImage: "plus")
                         .font(.headline)
                         .frame(maxWidth: .infinity)

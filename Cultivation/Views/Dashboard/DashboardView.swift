@@ -2,10 +2,22 @@ import SwiftUI
 
 struct DashboardView: View {
     let myPlants = [
-        Plant(name: "Monstera", species: "Monstera deliciosa", imageName: "leaf",
-              waterNeeds: "Every 1-2 weeks", sunNeeds: "Bright indirect", isPetSafe: false),
-        Plant(name: "Cherry Tomato", species: "Solanum lycopersicum", imageName: "camera.macro",
-              waterNeeds: "Daily in summer", sunNeeds: "Full Sun", isPetSafe: true),
+        Plant(
+            name: "Monstera",
+            species: "Monstera deliciosa",
+            imageName: "leaf",
+            waterNeeds: "Every 1-2 weeks",
+            sunNeeds: "Bright indirect",
+            isPetSafe: false
+        ),
+        Plant(
+            name: "Cherry Tomato",
+            species: "Solanum lycopersicum",
+            imageName: "camera.macro",
+            waterNeeds: "Daily in summer",
+            sunNeeds: "Full Sun",
+            isPetSafe: true
+        )
     ]
 
     var body: some View {

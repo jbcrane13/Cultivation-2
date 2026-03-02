@@ -12,7 +12,7 @@ struct ScannerView: View {
             VStack {
                 HStack {
                     Spacer()
-                    Button(action: {}) {
+                    Button {} label: {
                         Image(systemName: "bolt.slash.fill")
                             .font(.title2)
                             .foregroundColor(.white)
@@ -38,7 +38,7 @@ struct ScannerView: View {
 
                 Spacer()
 
-                Button(action: {}) {
+                Button {} label: {
                     Circle()
                         .strokeBorder(Color.white, lineWidth: 4)
                         .background(Circle().fill(Color.green))

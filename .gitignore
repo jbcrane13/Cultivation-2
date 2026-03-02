@@ -21,6 +21,9 @@ Package.resolved
 
 # OS
 .DS_Store
+
+# Environment — never commit secrets
+.env
 *.swp
 *~
 

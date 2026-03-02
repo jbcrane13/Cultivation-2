@@ -3,8 +3,8 @@ import SwiftUI
 struct OnboardingView: View {
     @Binding var hasCompletedOnboarding: Bool
     @State private var currentStep = 0
-    @State private var selectedLevel: ExperienceLevel? = nil
-    @State private var selectedGarden: GardenType? = nil
+    @State private var selectedLevel: ExperienceLevel?
+    @State private var selectedGarden: GardenType?
 
     var body: some View {
         ZStack {
@@ -139,7 +139,7 @@ struct OnboardingView: View {
 
             Spacer()
 
-            Button(action: {
+            Button {
                 withAnimation(.spring()) {
                     if currentStep < 2 {
                         currentStep += 1
@@ -147,7 +147,7 @@ struct OnboardingView: View {
                         hasCompletedOnboarding = true
                     }
                 }
-            }) {
+            } label: {
                 Text(currentStep == 2 ? "Get Started" : "Next")
                     .font(.headline)
                     .foregroundColor(.white)
