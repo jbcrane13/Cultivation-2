@@ -57,7 +57,7 @@ struct DashboardView: View {
                     .foregroundStyle(.primary)
                     .fixedSize(horizontal: false, vertical: true)
                 if weather.suppressOutdoorWatering {
-                    Label("Outdoor watering paused \(weather.suppressDays) days", systemImage: "drop.slash.fill")
+                    Label("Outdoor watering paused \(weather.suppressDays) days", systemImage: "drop.slash")
                         .font(.caption)
                         .foregroundStyle(.blue)
                         .padding(.top, 2)

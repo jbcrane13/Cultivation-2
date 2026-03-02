@@ -9,8 +9,7 @@ struct CultivationApp: App {
         do {
             container = try ModelContainer(
                 for: Plant.self,
-                TaskItem.self,
-                GardenSlot.self
+                TaskItem.self
             )
         } catch {
             fatalError("SwiftData container failed: \(error)")
