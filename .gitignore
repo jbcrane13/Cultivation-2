@@ -31,3 +31,7 @@ Package.resolved
 .beads/dolt/
 .beads/export-state/
 .beads/.local_version
+
+# Dolt database files (added by bd init)
+.dolt/
+*.db
